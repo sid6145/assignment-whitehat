@@ -15,10 +15,10 @@ for(let i = 0; i < num; i ++){
     newRect.setAttribute("height", h);
     newRect.setAttribute("fill", `rgba(128, 0, 128, 0.2)`);
 
-    x = x + 10
-    y = y + 10
-    h = h - 20
-    w = w - 20
+    x = x + 15
+    y = y + 15
+    h = h - 30
+    w = w - 30
     svg.appendChild(newRect);
 }
 
