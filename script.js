@@ -2,7 +2,7 @@ const svg = document.querySelector("svg");
 
 const svgns = "http://www.w3.org/2000/svg";
 
-const rectangles = (height, width, num) => {
+const rectangles = (width, height, num) => {
 
 let newRect = document.createElementNS(svgns, "rect");
 var x = 10, y = 10, h = height, w = width
@@ -25,4 +25,4 @@ for(let i = 0; i < num; i ++){
 }
 
 
-rectangles(250, 250, 5)
+rectangles(300, 200, 5)
